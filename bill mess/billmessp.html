@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #c{
+            height: 50px;
+            width: 50px;
+   
+            border: 3px solid;
+        }
+        #b{
+            width: 400px;
+            height: 30px;
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="a">सह्याद्री मेस</h1> -->
+    <select name="" id="">
+        <option value="">select coustomer name </option>
+        <option value="">vijay</option>
+        <option value="">shubham</option>
+        
+    </select>
+</form>
+    <table>
+        <div>
+        <div class="a"> 9 
+            <input name="as" id="t1" type="number" value="" > 
+             <input name="as" id="t2" type="number" value=""></div>
+        <div class="a"> 10 
+            <input name="as" id="t3" type="number" value="">
+             <input  name="as" id="t4" type="number" value=""></div>
+      
+    </div>
+
+    </table>
+    
+    <div>
+        <!-- <input id="txtf1" type="number" value="8">
+        <input id="txtf2" type="number" value="9"> -->
+        <br>
+        <div id="result">TOTAL BILL -        <input id="fff" type="" value="0">
+        </div>
+        <br>
+        <p>
+     <p>total tifine-  <input id="aaa" type="" value="00"></p>
+     <button id="aj"> पुन्हा भेट द्या... तुमचा दिवस चांगला जावो</p></button>
+
+<button id="hu" onclick="df()">print</button>
+    </div>
+    <script>
+
+
+ 
+
+
+
+
+var df  = document.getElementById("aj");
+var aafff = document.getElementById("fff");
+var t1q = document.getElementById("t1");
+var t2q = document.getElementById("t2");
+var t3q = document.getElementById("t3");
+var t4q = document.getElementById("t4");
+var bbb6 = document.getElementById("aaa");
+var q = document.getElementsByName("as");
+var hubtn = document.getElementById("hu")
+var a = 1;
+var b = 2;
+
+function h() {
+    var a = 1;
+var b = 2;
+ var ttt =  aafff.value = parseInt(t1q.value) + parseInt(t2q.value) + parseInt(t3q.value) + parseInt(t4q.value);
+ var a =  aafff.value = parseInt(t1q.value) / parseInt(t1q.value) + parseInt(t2q.value)/parseInt(t2q.value) + parseInt(t3q.value) / parseInt(t3q.value) + parseInt(t4q.value) / parseInt(t4q.value)  ;
+aafff.value = ttt;
+bbb6.value = a;
+
+
+
+}
+
+
+
+// function w() {
+//     if (q.value == 80) {
+//         bbb6.value = 1
+//     } if (q.value ==  160) {
+//         bbb6.value = 2
+//     }
+//     else {
+//         bbb6.value = bbb6.value
+//     }
+
+// }
+const time = new Date();
+   hubtn.addEventListener("click",function df() {
+  
+  
+    hubtn.innerHTML = time
+
+   });
+  
+ hubtn.addEventListener("click",function(){
+    setTimeout(() => {
+    window.print();
+
+}, 2000);
+ })
+
+df.addEventListener("click",function () {
+    h()
+})
+
+
+
+
+    </script>
+</body>
+</html> 
